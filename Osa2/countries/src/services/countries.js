@@ -1,0 +1,15 @@
+import axios from "axios";
+const baseUrl = "https://restcountries.com/v3.1/all"
+
+
+const getAll = () =>{
+    const request = axios.get(baseUrl)
+    return request.then(response => response.data)
+}
+
+const getWeather = (givenUrl) =>{
+    const request = axios.get(givenUrl)
+    return request.then(response => response.data)
+}
+
+export default {getAll, getWeather}
