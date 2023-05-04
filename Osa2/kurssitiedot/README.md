@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+### `npm run server`
+starts the db.json server used for saving and uploading initial data from the app.
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -29,8 +33,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run server`
-starts the db.json server used for saving and uploading initial data from the app.
 
 ### `npm run eject`
 
